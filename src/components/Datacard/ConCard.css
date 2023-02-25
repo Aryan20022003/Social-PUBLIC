@@ -1,0 +1,11 @@
+.card--main--container {
+  padding: 2rem 4.5rem;
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin: 2rem auto;
+  width: 90%;
+}

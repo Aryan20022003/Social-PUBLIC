@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 2rem;
+  /* background-color: white; */
+}
+.logo {
+  max-width: 100%;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.message h2 {
+  font-weight: 500;
+  font-size: 3.75rem;
+  padding-bottom: 1rem;
+  line-height: 1;
+  font-family: "Nunito", sans-serif;
+}
+.message p {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5rem;
+  word-spacing: 0.25rem;
+}
+
+@media (max-width: 978px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

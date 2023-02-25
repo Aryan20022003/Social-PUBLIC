@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f5f2;
+  position: relative;
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 62.5%;
+  }
+}

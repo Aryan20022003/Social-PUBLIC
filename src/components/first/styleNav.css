@@ -1,0 +1,42 @@
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.brand {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0.25rem;
+}
+.btns {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 1rem;
+}
+.hide {
+  display: none;
+
+  backdrop-filter: blur(10px);
+}
+@media (max-width: 1022px) {
+  .btns {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    /* right:0; */
+    left: 0;
+    /* transform: translate(40%, 0); */
+    /* background-color: transparent; */
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    gap: 5rem;
+    padding: 0;
+    margin: 0;
+  }
+}

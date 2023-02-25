@@ -1,0 +1,48 @@
+.Card--main {
+  max-width: 80%;
+  background-color: transparent;
+  /* background-color: blueviolet; */
+  border-radius: 1rem;
+  font-size: medium;
+  font-family: "Nunito", sans-serif;
+  border: 2rem;
+}
+.card--heading {
+  font-size: 1.5rem;
+}
+
+.content {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+.link {
+  font-size: 1.65rem;
+  font-weight: 300;
+}
+.bottom--bar--card {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  font-family: "Nunito", sans-serif;
+}
+.button--container {
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem 0;
+}
+button {
+  /* background-color: blue; */
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+button:hover {
+  background-color: rgb(96 165 250);
+}
+
+@media (max-width: 600px) {
+  .Card--main {
+    max-width: 90%;
+    margin: 0;
+  }
+}

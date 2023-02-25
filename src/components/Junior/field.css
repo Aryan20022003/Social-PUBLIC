@@ -1,0 +1,21 @@
+.input {
+  padding: 1rem 3rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  font-size: medium;
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+  font-weight: normal;
+  outline: 0.25rem;
+  background-color: transparent;
+}
+.label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+.input:hover,
+.input:active {
+  background-color: #f5ebe0;
+}

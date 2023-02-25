@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&family=Dancing+Script:wght@500;600;700&display=swap");
+
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 65%;
+  outline-width: 0.25rem;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  /* background: black; */
+  /* outline-color: transparent; */
+  z-index: 2;
+}
+.heading {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 300;
+  color: #03c988;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  background: transparent;
+  text-align: center;
+}
+.formcontainer:hover {
+  outline-color: #3c79f5;
+}
+
+@media (max-width: 600px) {
+  .formcontainer {
+    max-width: 90%;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    /* background: black; */
+    /* outline-color: transparent; */
+    z-index: 2;
+  }
+}
