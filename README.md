@@ -4,6 +4,9 @@ This app is designed for easing your job of managing social media.
 You can allow your junior to write the post and schedule the post
 and Admin can review the post and give green flag or delete the message
 
+DEPLOYED LINK:https://social-aryan.netlify.app/
+DISCORD SERVER:https://discord.com/channels/1075843286633291866/1075843287845453836
+
 ## How to use
 
 - Enter (as of now) Api key for you profile eg : hooks for discord etc in "src\components\Datacard\DatacardContainer.jsx".
@@ -18,7 +21,7 @@ and Admin can review the post and give green flag or delete the message
 - UI is optimized for the large screen
 - UI is optimized for small screen too.(updated)
 - Unified dashBoard to review message and send it working (for Discord only).
-- Hosted Live on Netlify  
+- Hosted Live on Netlify
 
 ## Thing which are under development
 
